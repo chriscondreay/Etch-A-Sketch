@@ -1,0 +1,17 @@
+body {
+    min-height: 97vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+canvas {
+    border: 20px solid black;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+canvas.shake {
+    animation: shake 0.5s linear 1;
+}
